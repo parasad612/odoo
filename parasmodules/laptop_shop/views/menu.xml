@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <menuitem id="laptop_shop_menu" name="Laptop Shop" sequence="10"/>
+</odoo>
