@@ -1,0 +1,5 @@
+run command
+
+./odoo-bin -c odoo.conf -u laptop_shop
+
+replace laptop_shop with your module folder name

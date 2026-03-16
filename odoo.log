@@ -261,3 +261,652 @@ File: "/usr/lib/python3.12/socket.py", line 707, in readinto
 2026-03-16 21:02:26,394 22341 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 21:02:26] "GET /web/assets/716-de55dd6/web_editor.assets_wysiwyg.min.js HTTP/1.1" 200 - 4 0.001 0.003
 2026-03-16 21:02:26,738 22341 INFO ? werkzeug: 127.0.0.1 - - [16/Mar/2026 21:02:26] "GET /base/static/src/css/description.css HTTP/1.1" 200 - 0 0.000 0.001
 2026-03-16 21:02:26,785 22341 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 21:02:26] "GET /web/image?model=ir.module.module&id=540&field=icon_image&unique=1773694747000 HTTP/1.1" 200 - 4 0.002 0.004
+2026-03-16 21:05:35,693 22341 INFO ? odoo.service.server: Initiating shutdown 
+2026-03-16 21:05:35,693 22341 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2026-03-16 21:05:35,980 22341 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 5 connections  
+2026-03-16 21:05:38,555 23476 INFO ? odoo: Odoo version 16.0 
+2026-03-16 21:05:38,556 23476 INFO ? odoo: Using configuration file at /home/pehsechs/odoo16/odoo.conf 
+2026-03-16 21:05:38,556 23476 INFO ? odoo: addons paths: ['/home/pehsechs/odoo16/odoo/addons', '/home/pehsechs/.local/share/Odoo/addons/16.0', '/home/pehsechs/odoo16/addons', '/home/pehsechs/odoo16/parasmodules'] 
+2026-03-16 21:05:38,556 23476 INFO ? odoo: database: pehsechs@default:default 
+2026-03-16 21:05:38,701 23476 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltopdf to print a pdf version of the reports. 
+2026-03-16 21:05:38,889 23476 INFO ? odoo.service.server: HTTP service (werkzeug) running on ParasPC.localdomain:8069 
+2026-03-16 21:05:39,832 23476 INFO ? odoo.modules.loading: loading 1 modules... 
+2026-03-16 21:05:39,843 23476 INFO ? odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2026-03-16 21:05:39,871 23476 INFO ? odoo.modules.loading: loading 57 modules... 
+2026-03-16 21:05:40,388 23476 INFO ? odoo.modules.loading: 57 modules loaded in 0.52s, 0 queries (+0 extra) 
+2026-03-16 21:05:40,588 23476 INFO ? odoo.modules.loading: Modules loaded. 
+2026-03-16 21:05:40,593 23476 INFO ? odoo.modules.registry: Registry loaded in 0.775s 
+2026-03-16 21:05:40,595 23476 INFO odoo16 odoo.addons.base.models.ir_http: Generating routing map for key None 
+2026-03-16 21:05:40,909 23476 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 21:05:40] "GET /websocket HTTP/1.1" 101 - 22 0.027 1.065
+2026-03-16 21:05:40,917 23476 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2026-03-16 21:05:42,687 23476 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'laptop_shop', defaulting to LGPL-3 
+2026-03-16 21:05:42,716 23476 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 21:05:42] "POST /web/dataset/call_kw/base.module.update/onchange HTTP/1.1" 200 - 4 0.004 0.225
+2026-03-16 21:05:43,653 23476 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 21:05:43] "POST /web/dataset/call_kw/base.module.update/create HTTP/1.1" 200 - 5 0.004 0.016
+2026-03-16 21:05:44,000 23476 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 21:05:44] "POST /web/dataset/call_kw/base.module.update/read HTTP/1.1" 200 - 3 0.006 0.017
+2026-03-16 21:05:44,224 23476 INFO odoo16 odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user admin #2 via 127.0.0.1 
+2026-03-16 21:05:44,813 23476 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 21:05:44] "POST /web/dataset/call_button HTTP/1.1" 200 - 1160 0.359 0.234
+2026-03-16 21:05:49,855 23476 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 21:05:49] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 41 0.016 0.011
+2026-03-16 21:05:50,147 23476 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 21:05:50] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.002 0.005
+2026-03-16 21:05:52,775 23476 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 21:05:52] "POST /web/dataset/call_kw/base.module.update/onchange HTTP/1.1" 200 - 1 0.001 0.008
+2026-03-16 21:05:53,687 23476 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 21:05:53] "POST /web/dataset/call_kw/base.module.update/create HTTP/1.1" 200 - 3 0.001 0.005
+2026-03-16 21:05:54,014 23476 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 21:05:54] "POST /web/dataset/call_kw/base.module.update/read HTTP/1.1" 200 - 2 0.001 0.003
+2026-03-16 21:05:54,273 23476 INFO odoo16 odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user admin #2 via 127.0.0.1 
+2026-03-16 21:05:54,871 23476 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 21:05:54] "POST /web/dataset/call_button HTTP/1.1" 200 - 1151 0.369 0.234
+2026-03-16 21:05:56,292 23476 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 21:05:56] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.017 0.012
+2026-03-16 21:05:56,609 23476 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 21:05:56] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.003 0.006
+2026-03-16 21:05:58,803 23476 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 21:05:58] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.030 0.012
+2026-03-16 21:05:59,122 23476 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 21:05:59] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.003 0.003
+2026-03-16 21:06:00,624 23476 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 21:06:00] "GET /www.google.com HTTP/1.1" 404 - 85 0.041 0.266
+2026-03-16 21:06:00,695 23476 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 21:06:00] "GET /logo.png?company=1 HTTP/1.1" 200 - 2 0.003 0.009
+2026-03-16 21:06:01,038 23476 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 21:06:01] "GET /web_editor/shape/http_routing/404.svg?c2=o-color-2 HTTP/1.1" 400 - 18 0.011 0.033
+2026-03-16 21:06:02,008 23476 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 21:06:02] "GET /website/translations/17d5e45133606d96fe9bcfe6c0b3ea4badeb35e5 HTTP/1.1" 200 - 4 0.002 0.005
+2026-03-16 21:06:02,259 23476 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 21:06:02] "POST /web/dataset/call_kw/web_tour.tour/get_consumed_tours HTTP/1.1" 200 - 7 0.004 0.004
+2026-03-16 21:06:07,387 23476 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 21:06:07] "POST /web/dataset/call_kw/ir.module.module/read HTTP/1.1" 200 - 6 0.004 0.039
+2026-03-16 21:06:07,745 23476 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 21:06:07] "GET /web/image?model=ir.module.module&id=540&field=icon_image&unique=1773695144000 HTTP/1.1" 200 - 4 0.002 0.005
+2026-03-16 21:07:44,977 23476 INFO odoo16 odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2026-03-16 21:07:44,983 23476 INFO odoo16 odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2026-03-16 21:13:20,749 23476 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 21:13:20] "POST /web/action/load HTTP/1.1" 200 - 10 0.012 0.011
+2026-03-16 21:13:21,060 23476 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 21:13:21] "POST /web/dataset/call_kw/res.config.settings/get_views HTTP/1.1" 200 - 37 0.025 0.063
+2026-03-16 21:13:21,200 23476 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 21:13:21] "POST /web/dataset/call_kw/res.config.settings/onchange HTTP/1.1" 200 - 126 0.045 0.029
+2026-03-16 21:13:21,610 23476 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 21:13:21] "POST /base_setup/demo_active HTTP/1.1" 200 - 2 0.002 0.003
+2026-03-16 21:13:21,619 23476 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 21:13:21] "POST /base_setup/data HTTP/1.1" 200 - 6 0.003 0.003
+2026-03-16 21:13:26,715 23476 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 21:13:26] "POST /web/action/load HTTP/1.1" 200 - 14 0.007 0.010
+2026-03-16 21:13:27,065 23476 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 21:13:27] "POST /web/dataset/call_kw/ir.model/get_views HTTP/1.1" 200 - 48 0.025 0.037
+2026-03-16 21:13:27,253 23476 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 21:13:27] "POST /web/dataset/call_kw/ir.model/web_search_read HTTP/1.1" 200 - 5 0.004 0.004
+2026-03-16 21:13:27,363 23476 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 21:13:27] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 2 0.001 0.003
+2026-03-16 21:13:58,673 23476 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 21:13:58] "POST /web/dataset/call_kw/ir.model/web_search_read HTTP/1.1" 200 - 3 0.005 0.005
+2026-03-16 21:14:09,520 23476 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 21:14:09] "POST /web/dataset/call_kw/ir.model/read HTTP/1.1" 200 - 17 0.015 0.008
+2026-03-16 21:14:09,746 23476 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 21:14:09] "POST /web/dataset/call_kw/ir.model.fields/read HTTP/1.1" 200 - 2 0.002 0.004
+2026-03-16 21:14:09,829 23476 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 21:14:09] "POST /web/dataset/call_kw/ir.model.access/read HTTP/1.1" 200 - 4 0.004 0.009
+2026-03-16 21:14:09,830 23476 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 21:14:09] "POST /web/dataset/call_kw/ir.rule/read HTTP/1.1" 200 - 3 0.004 0.007
+2026-03-16 21:14:09,833 23476 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 21:14:09] "POST /web/dataset/call_kw/ir.ui.view/read HTTP/1.1" 200 - 4 0.005 0.008
+2026-03-16 21:14:09,844 23476 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 21:14:09] "POST /web/dataset/call_kw/res.groups/read HTTP/1.1" 200 - 3 0.002 0.003
+2026-03-16 21:16:21,814 23476 INFO odoo16 odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2026-03-16 21:16:21,820 23476 INFO odoo16 odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2026-03-16 21:16:21,839 23476 INFO odoo16 odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2026-03-16 21:16:21,844 23476 INFO odoo16 odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2026-03-16 21:16:21,852 23476 INFO odoo16 odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2026-03-16 21:16:21,856 23476 INFO odoo16 odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2026-03-16 21:16:21,864 23476 INFO odoo16 odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2026-03-16 21:16:21,867 23476 INFO odoo16 odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2026-03-16 21:16:21,875 23476 INFO odoo16 odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2026-03-16 21:16:21,880 23476 INFO odoo16 odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2026-03-16 21:17:38,136 23476 INFO odoo16 odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2026-03-16 21:17:38,141 23476 INFO odoo16 odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2026-03-16 21:27:36,497 23476 INFO odoo16 odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2026-03-16 21:27:36,505 23476 INFO odoo16 odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2026-03-16 21:28:07,091 23476 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 21:28:07] "GET / HTTP/1.1" 303 - 2 0.001 0.003
+2026-03-16 21:28:07,498 23476 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 21:28:07] "GET /web HTTP/1.1" 200 - 67 0.043 0.359
+2026-03-16 21:38:07,965 23476 INFO odoo16 odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2026-03-16 21:38:07,974 23476 INFO odoo16 odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2026-03-16 21:47:57,180 23476 INFO odoo16 odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2026-03-16 21:47:57,183 23476 INFO odoo16 odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2026-03-16 21:57:47,006 23476 INFO odoo16 odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2026-03-16 21:57:47,020 23476 INFO odoo16 odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2026-03-16 22:08:37,642 23476 INFO odoo16 odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2026-03-16 22:08:37,651 23476 INFO odoo16 odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2026-03-16 22:16:17,537 23476 INFO odoo16 odoo.addons.base.models.ir_cron: Starting job `Notification: Send scheduled message notifications`. 
+2026-03-16 22:16:17,543 23476 INFO odoo16 odoo.addons.base.models.ir_cron: Job `Notification: Send scheduled message notifications` done. 
+2026-03-16 22:16:17,550 23476 INFO odoo16 odoo.addons.base.models.ir_cron: Starting job `Partner Autocomplete : Sync with remote DB`. 
+2026-03-16 22:16:17,553 23476 INFO odoo16 odoo.addons.base.models.ir_cron: Job `Partner Autocomplete : Sync with remote DB` done. 
+2026-03-16 22:16:17,561 23476 INFO odoo16 odoo.addons.base.models.ir_cron: Starting job `SMS: SMS Queue Manager`. 
+2026-03-16 22:16:17,564 23476 INFO odoo16 odoo.addons.base.models.ir_cron: Job `SMS: SMS Queue Manager` done. 
+2026-03-16 22:16:17,571 23476 INFO odoo16 odoo.addons.base.models.ir_cron: Starting job `Snailmail: process letters queue`. 
+2026-03-16 22:16:17,574 23476 INFO odoo16 odoo.addons.base.models.ir_cron: Job `Snailmail: process letters queue` done. 
+2026-03-16 22:16:17,581 23476 INFO odoo16 odoo.addons.base.models.ir_cron: Starting job `Mail: Email Queue Manager`. 
+2026-03-16 22:16:17,585 23476 INFO odoo16 odoo.addons.base.models.ir_cron: Job `Mail: Email Queue Manager` done. 
+2026-03-16 22:18:29,437 23476 INFO odoo16 odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2026-03-16 22:18:29,440 23476 INFO odoo16 odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2026-03-16 22:28:19,667 23476 INFO odoo16 odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2026-03-16 22:28:19,670 23476 INFO odoo16 odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2026-03-16 22:35:17,555 23476 INFO ? odoo.service.server: Initiating shutdown 
+2026-03-16 22:35:17,555 23476 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2026-03-16 22:35:18,039 23476 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 6 connections  
+2026-03-16 22:35:21,191 40021 INFO ? odoo: Odoo version 16.0 
+2026-03-16 22:35:21,191 40021 INFO ? odoo: Using configuration file at /home/pehsechs/odoo16/odoo.conf 
+2026-03-16 22:35:21,191 40021 INFO ? odoo: addons paths: ['/home/pehsechs/odoo16/odoo/addons', '/home/pehsechs/.local/share/Odoo/addons/16.0', '/home/pehsechs/odoo16/addons', '/home/pehsechs/odoo16/parasmodules'] 
+2026-03-16 22:35:21,191 40021 INFO ? odoo: database: pehsechs@default:default 
+2026-03-16 22:35:21,353 40021 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltopdf to print a pdf version of the reports. 
+2026-03-16 22:35:21,585 40021 INFO ? odoo.service.server: HTTP service (werkzeug) running on ParasPC.localdomain:8069 
+2026-03-16 22:35:23,855 40021 INFO ? odoo.modules.loading: loading 1 modules... 
+2026-03-16 22:35:23,867 40021 INFO ? odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2026-03-16 22:35:23,912 40021 INFO ? odoo.modules.loading: loading 57 modules... 
+2026-03-16 22:35:24,683 40021 INFO ? odoo.modules.loading: 57 modules loaded in 0.77s, 0 queries (+0 extra) 
+2026-03-16 22:35:24,863 40021 INFO ? odoo.modules.loading: Modules loaded. 
+2026-03-16 22:35:24,867 40021 INFO ? odoo.modules.registry: Registry loaded in 1.032s 
+2026-03-16 22:35:24,869 40021 INFO odoo16 odoo.addons.base.models.ir_http: Generating routing map for key None 
+2026-03-16 22:35:25,151 40021 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:35:25] "GET / HTTP/1.1" 303 - 23 0.025 1.295
+2026-03-16 22:35:25,544 40021 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:35:25] "GET /web HTTP/1.1" 200 - 84 0.043 0.344
+2026-03-16 22:35:26,197 40021 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:35:26] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 6 0.004 0.006
+2026-03-16 22:35:26,576 40021 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:35:26] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 17 0.012 0.012
+2026-03-16 22:35:26,585 40021 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:35:26] "GET /websocket HTTP/1.1" 101 - 1 0.000 0.005
+2026-03-16 22:35:26,596 40021 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2026-03-16 22:35:26,784 40021 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'laptop_shop', defaulting to LGPL-3 
+2026-03-16 22:35:26,796 40021 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:35:26] "POST /web/action/load HTTP/1.1" 200 - 9 0.005 0.241
+2026-03-16 22:35:27,163 40021 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:35:27] "POST /mail/init_messaging HTTP/1.1" 200 - 55 0.031 0.023
+2026-03-16 22:35:27,415 40021 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:35:27] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 22 0.015 0.013
+2026-03-16 22:35:27,440 40021 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:35:27] "POST /mail/inbox/messages HTTP/1.1" 200 - 8 0.005 0.004
+2026-03-16 22:35:27,465 40021 INFO ? werkzeug: 127.0.0.1 - - [16/Mar/2026 22:35:27] "GET /mail/static/src/audio/ting.ogg HTTP/1.1" 206 - 0 0.000 0.002
+2026-03-16 22:35:27,483 40021 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:35:27] "POST /mail/load_message_failures HTTP/1.1" 200 - 11 0.010 0.012
+2026-03-16 22:35:30,120 40021 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:35:30] "POST /web/action/load HTTP/1.1" 200 - 11 0.005 0.008
+2026-03-16 22:35:30,379 40021 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:35:30] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 44 0.018 0.027
+2026-03-16 22:35:30,441 40021 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:35:30] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 42 0.018 0.013
+2026-03-16 22:35:30,690 40021 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:35:30] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.002 0.005
+2026-03-16 22:35:32,173 40021 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:35:32] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.013 0.010
+2026-03-16 22:35:32,472 40021 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:35:32] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.002 0.005
+2026-03-16 22:35:33,963 40021 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:35:33] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.026 0.011
+2026-03-16 22:35:34,253 40021 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:35:34] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.003 0.003
+2026-03-16 22:35:37,017 40021 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:35:37] "POST /web/dataset/call_kw/ir.module.module/read HTTP/1.1" 200 - 8 0.004 0.051
+2026-03-16 22:35:37,406 40021 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:35:37] "GET /web/bundle/web_editor.assets_wysiwyg?lang=en_US&debug=1 HTTP/1.1" 200 - 11 0.007 0.049
+2026-03-16 22:35:37,594 40021 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:35:37] "GET /web/assets/715-de55dd6/web_editor.assets_wysiwyg.min.css HTTP/1.1" 200 - 4 0.002 0.004
+2026-03-16 22:35:37,710 40021 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:35:37] "GET /web/assets/716-de55dd6/web_editor.assets_wysiwyg.min.js HTTP/1.1" 200 - 4 0.001 0.006
+2026-03-16 22:35:37,798 40021 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:35:37] "GET /web/image?model=ir.module.module&id=540&field=icon_image&unique=1773695144000 HTTP/1.1" 200 - 4 0.002 0.004
+2026-03-16 22:35:48,588 40021 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:35:48] "POST /web/action/load HTTP/1.1" 200 - 10 0.004 0.007
+2026-03-16 22:35:48,906 40021 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:35:48] "POST /web/dataset/call_kw/res.config.settings/get_views HTTP/1.1" 200 - 35 0.015 0.065
+2026-03-16 22:35:49,002 40021 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:35:49] "POST /web/dataset/call_kw/res.config.settings/onchange HTTP/1.1" 200 - 122 0.034 0.025
+2026-03-16 22:35:49,425 40021 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:35:49] "POST /base_setup/demo_active HTTP/1.1" 200 - 2 0.001 0.003
+2026-03-16 22:35:49,436 40021 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:35:49] "POST /base_setup/data HTTP/1.1" 200 - 6 0.002 0.003
+2026-03-16 22:35:56,410 40021 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:35:56] "POST /web/action/load HTTP/1.1" 200 - 14 0.005 0.008
+2026-03-16 22:35:56,766 40021 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:35:56] "POST /web/dataset/call_kw/ir.model/get_views HTTP/1.1" 200 - 42 0.023 0.041
+2026-03-16 22:35:56,953 40021 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:35:56] "POST /web/dataset/call_kw/ir.model/web_search_read HTTP/1.1" 200 - 5 0.003 0.004
+2026-03-16 22:35:57,092 40021 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:35:57] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 2 0.001 0.003
+2026-03-16 22:36:15,247 40021 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:36:15] "POST /web/dataset/call_kw/ir.model/web_search_read HTTP/1.1" 200 - 2 0.002 0.004
+2026-03-16 22:36:20,045 40021 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:36:20] "POST /web/dataset/call_kw/ir.model/web_search_read HTTP/1.1" 200 - 4 0.002 0.005
+2026-03-16 22:36:21,551 40021 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:36:21] "POST /web/dataset/call_kw/ir.model/web_search_read HTTP/1.1" 200 - 2 0.002 0.003
+2026-03-16 22:36:23,784 40021 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:36:23] "POST /web/dataset/call_kw/ir.model/web_search_read HTTP/1.1" 200 - 4 0.002 0.004
+2026-03-16 22:37:21,606 40021 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:37:21] "POST /web/dataset/call_kw/res.config.settings/onchange HTTP/1.1" 200 - 24 0.019 0.027
+2026-03-16 22:37:23,378 40021 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:37:23] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.007 0.014
+2026-03-16 22:37:23,395 40021 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:37:23] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.018 0.022
+2026-03-16 22:37:24,777 40021 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:37:24] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.015 0.013
+2026-03-16 22:37:25,080 40021 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:37:25] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.003 0.005
+2026-03-16 22:37:29,573 40021 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:37:29] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.028 0.011
+2026-03-16 22:37:29,879 40021 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:37:29] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.006 0.007
+2026-03-16 22:37:34,884 40021 INFO odoo16 odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_install on ['PKCL Solutions'] to user admin #2 via 127.0.0.1 
+2026-03-16 22:37:34,884 40021 INFO odoo16 odoo.addons.base.models.ir_module: User #2 triggered module installation 
+2026-03-16 22:37:34,885 40021 INFO odoo16 odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['PKCL Solutions'] to user admin #2 via 127.0.0.1 
+2026-03-16 22:37:34,938 40021 INFO odoo16 odoo.modules.loading: loading 1 modules... 
+2026-03-16 22:37:34,949 40021 INFO odoo16 odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2026-03-16 22:37:34,971 40021 INFO odoo16 odoo.modules.loading: updating modules list 
+2026-03-16 22:37:34,972 40021 INFO odoo16 odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2026-03-16 22:37:35,525 40021 INFO odoo16 odoo.modules.loading: loading 57 modules... 
+2026-03-16 22:37:35,561 40021 INFO odoo16 odoo.modules.loading: 57 modules loaded in 0.04s, 0 queries (+0 extra) 
+2026-03-16 22:37:35,564 40021 INFO odoo16 odoo.modules.loading: loading 58 modules... 
+2026-03-16 22:37:35,564 40021 INFO odoo16 odoo.modules.loading: Loading module laptop_shop (2/58) 
+2026-03-16 22:37:35,568 40021 CRITICAL odoo16 odoo.modules.module: Couldn't load module laptop_shop 
+2026-03-16 22:37:35,568 40021 CRITICAL odoo16 odoo.modules.module: cannot import name 'customers' from partially initialized module 'odoo.addons.laptop_shop.models' (most likely due to a circular import) (/home/pehsechs/odoo16/parasmodules/laptop_shop/models/__init__.py) 
+2026-03-16 22:37:35,570 40021 WARNING odoo16 odoo.modules.loading: Transient module states were reset 
+2026-03-16 22:37:35,573 40021 ERROR odoo16 odoo.modules.registry: Failed to load registry 
+Traceback (most recent call last):
+  File "/home/pehsechs/odoo16/odoo/modules/registry.py", line 87, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "/home/pehsechs/odoo16/odoo/modules/loading.py", line 493, in load_modules
+    processed_modules += load_marked_modules(cr, graph,
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pehsechs/odoo16/odoo/modules/loading.py", line 374, in load_marked_modules
+    loaded, processed = load_module_graph(
+                        ^^^^^^^^^^^^^^^^^^
+  File "/home/pehsechs/odoo16/odoo/modules/loading.py", line 190, in load_module_graph
+    load_openerp_module(package.name)
+  File "/home/pehsechs/odoo16/odoo/modules/module.py", line 471, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "/home/pehsechs/odoo16/parasmodules/laptop_shop/__init__.py", line 1, in <module>
+    from . import models
+  File "/home/pehsechs/odoo16/parasmodules/laptop_shop/models/__init__.py", line 1, in <module>
+    from . import customers
+ImportError: cannot import name 'customers' from partially initialized module 'odoo.addons.laptop_shop.models' (most likely due to a circular import) (/home/pehsechs/odoo16/parasmodules/laptop_shop/models/__init__.py)
+2026-03-16 22:37:35,580 40021 INFO odoo16 odoo.modules.loading: loading 1 modules... 
+2026-03-16 22:37:35,656 40021 INFO odoo16 odoo.modules.loading: 1 modules loaded in 0.08s, 0 queries (+0 extra) 
+2026-03-16 22:37:35,661 40021 INFO odoo16 odoo.modules.loading: loading 57 modules... 
+2026-03-16 22:37:35,693 40021 INFO odoo16 odoo.modules.loading: 57 modules loaded in 0.03s, 0 queries (+0 extra) 
+2026-03-16 22:37:35,809 40021 INFO odoo16 odoo.modules.loading: Modules loaded. 
+2026-03-16 22:37:35,813 40021 INFO odoo16 odoo.modules.registry: Registry loaded in 0.238s 
+2026-03-16 22:37:35,817 40021 ERROR odoo16 odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/home/pehsechs/odoo16/odoo/http.py", line 2262, in __call__
+    response = request._serve_db()
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/pehsechs/odoo16/odoo/http.py", line 1849, in _serve_db
+    return service_model.retrying(self._serve_ir_http, self.env)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pehsechs/odoo16/odoo/service/model.py", line 153, in retrying
+    result = func()
+             ^^^^^^
+  File "/home/pehsechs/odoo16/odoo/http.py", line 1877, in _serve_ir_http
+    response = self.dispatcher.dispatch(rule.endpoint, args)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pehsechs/odoo16/odoo/http.py", line 2081, in dispatch
+    result = self.request.registry['ir.http']._dispatch(endpoint)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pehsechs/odoo16/odoo/addons/base/models/ir_http.py", line 154, in _dispatch
+    result = endpoint(**request.params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pehsechs/odoo16/odoo/http.py", line 763, in route_wrapper
+    result = endpoint(self, *args, **params_ok)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pehsechs/odoo16/addons/web/controllers/dataset.py", line 47, in call_button
+    action = self._call_kw(model, method, args, kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pehsechs/odoo16/addons/web/controllers/dataset.py", line 34, in _call_kw
+    return call_kw(Model, method, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pehsechs/odoo16/odoo/api.py", line 484, in call_kw
+    result = _call_kw_multi(method, model, args, kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pehsechs/odoo16/odoo/api.py", line 469, in _call_kw_multi
+    result = method(recs, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<decorator-gen-77>", line 2, in button_immediate_install
+  File "/home/pehsechs/odoo16/odoo/addons/base/models/ir_module.py", line 74, in check_and_log
+    return method(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pehsechs/odoo16/odoo/addons/base/models/ir_module.py", line 478, in button_immediate_install
+    return self._button_immediate_function(self.env.registry[self._name].button_install)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pehsechs/odoo16/odoo/addons/base/models/ir_module.py", line 602, in _button_immediate_function
+    registry = modules.registry.Registry.new(self._cr.dbname, update_module=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<decorator-gen-16>", line 2, in new
+  File "/home/pehsechs/odoo16/odoo/tools/func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pehsechs/odoo16/odoo/modules/registry.py", line 87, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "/home/pehsechs/odoo16/odoo/modules/loading.py", line 493, in load_modules
+    processed_modules += load_marked_modules(cr, graph,
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pehsechs/odoo16/odoo/modules/loading.py", line 374, in load_marked_modules
+    loaded, processed = load_module_graph(
+                        ^^^^^^^^^^^^^^^^^^
+  File "/home/pehsechs/odoo16/odoo/modules/loading.py", line 190, in load_module_graph
+    load_openerp_module(package.name)
+  File "/home/pehsechs/odoo16/odoo/modules/module.py", line 471, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "/home/pehsechs/odoo16/parasmodules/laptop_shop/__init__.py", line 1, in <module>
+    from . import models
+  File "/home/pehsechs/odoo16/parasmodules/laptop_shop/models/__init__.py", line 1, in <module>
+    from . import customers
+ImportError: cannot import name 'customers' from partially initialized module 'odoo.addons.laptop_shop.models' (most likely due to a circular import) (/home/pehsechs/odoo16/parasmodules/laptop_shop/models/__init__.py)
+2026-03-16 22:37:35,819 40021 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:37:35] "POST /web/dataset/call_button HTTP/1.1" 200 - 1201 0.373 0.567
+2026-03-16 22:37:39,635 40021 INFO odoo16 odoo.addons.base.models.ir_http: Generating routing map for key None 
+2026-03-16 22:37:39,890 40021 INFO odoo16 odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_install on ['PKCL Solutions'] to user admin #2 via 127.0.0.1 
+2026-03-16 22:37:39,890 40021 INFO odoo16 odoo.addons.base.models.ir_module: User #2 triggered module installation 
+2026-03-16 22:37:39,892 40021 INFO odoo16 odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['PKCL Solutions'] to user admin #2 via 127.0.0.1 
+2026-03-16 22:37:39,964 40021 INFO odoo16 odoo.modules.loading: loading 1 modules... 
+2026-03-16 22:37:39,973 40021 INFO odoo16 odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2026-03-16 22:37:39,992 40021 INFO odoo16 odoo.modules.loading: updating modules list 
+2026-03-16 22:37:39,993 40021 INFO odoo16 odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2026-03-16 22:37:40,492 40021 INFO odoo16 odoo.modules.loading: loading 57 modules... 
+2026-03-16 22:37:40,525 40021 INFO odoo16 odoo.modules.loading: 57 modules loaded in 0.03s, 0 queries (+0 extra) 
+2026-03-16 22:37:40,527 40021 INFO odoo16 odoo.modules.loading: loading 58 modules... 
+2026-03-16 22:37:40,527 40021 INFO odoo16 odoo.modules.loading: Loading module laptop_shop (2/58) 
+2026-03-16 22:37:40,528 40021 CRITICAL odoo16 odoo.modules.module: Couldn't load module laptop_shop 
+2026-03-16 22:37:40,528 40021 CRITICAL odoo16 odoo.modules.module: cannot import name 'customers' from partially initialized module 'odoo.addons.laptop_shop.models' (most likely due to a circular import) (/home/pehsechs/odoo16/parasmodules/laptop_shop/models/__init__.py) 
+2026-03-16 22:37:40,529 40021 WARNING odoo16 odoo.modules.loading: Transient module states were reset 
+2026-03-16 22:37:40,532 40021 ERROR odoo16 odoo.modules.registry: Failed to load registry 
+Traceback (most recent call last):
+  File "/home/pehsechs/odoo16/odoo/modules/registry.py", line 87, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "/home/pehsechs/odoo16/odoo/modules/loading.py", line 493, in load_modules
+    processed_modules += load_marked_modules(cr, graph,
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pehsechs/odoo16/odoo/modules/loading.py", line 374, in load_marked_modules
+    loaded, processed = load_module_graph(
+                        ^^^^^^^^^^^^^^^^^^
+  File "/home/pehsechs/odoo16/odoo/modules/loading.py", line 190, in load_module_graph
+    load_openerp_module(package.name)
+  File "/home/pehsechs/odoo16/odoo/modules/module.py", line 471, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "/home/pehsechs/odoo16/parasmodules/laptop_shop/__init__.py", line 1, in <module>
+    from . import models
+  File "/home/pehsechs/odoo16/parasmodules/laptop_shop/models/__init__.py", line 1, in <module>
+    from . import customers
+ImportError: cannot import name 'customers' from partially initialized module 'odoo.addons.laptop_shop.models' (most likely due to a circular import) (/home/pehsechs/odoo16/parasmodules/laptop_shop/models/__init__.py)
+2026-03-16 22:37:40,537 40021 INFO odoo16 odoo.modules.loading: loading 1 modules... 
+2026-03-16 22:37:40,545 40021 INFO odoo16 odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2026-03-16 22:37:40,550 40021 INFO odoo16 odoo.modules.loading: loading 57 modules... 
+2026-03-16 22:37:40,582 40021 INFO odoo16 odoo.modules.loading: 57 modules loaded in 0.03s, 0 queries (+0 extra) 
+2026-03-16 22:37:40,695 40021 INFO odoo16 odoo.modules.loading: Modules loaded. 
+2026-03-16 22:37:40,699 40021 INFO odoo16 odoo.modules.registry: Registry loaded in 0.166s 
+2026-03-16 22:37:40,701 40021 ERROR odoo16 odoo.http: Exception during request handling. 
+Traceback (most recent call last):
+  File "/home/pehsechs/odoo16/odoo/http.py", line 2262, in __call__
+    response = request._serve_db()
+               ^^^^^^^^^^^^^^^^^^^
+  File "/home/pehsechs/odoo16/odoo/http.py", line 1849, in _serve_db
+    return service_model.retrying(self._serve_ir_http, self.env)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pehsechs/odoo16/odoo/service/model.py", line 153, in retrying
+    result = func()
+             ^^^^^^
+  File "/home/pehsechs/odoo16/odoo/http.py", line 1877, in _serve_ir_http
+    response = self.dispatcher.dispatch(rule.endpoint, args)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pehsechs/odoo16/odoo/http.py", line 2081, in dispatch
+    result = self.request.registry['ir.http']._dispatch(endpoint)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pehsechs/odoo16/odoo/addons/base/models/ir_http.py", line 154, in _dispatch
+    result = endpoint(**request.params)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pehsechs/odoo16/odoo/http.py", line 763, in route_wrapper
+    result = endpoint(self, *args, **params_ok)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pehsechs/odoo16/addons/web/controllers/dataset.py", line 47, in call_button
+    action = self._call_kw(model, method, args, kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pehsechs/odoo16/addons/web/controllers/dataset.py", line 34, in _call_kw
+    return call_kw(Model, method, args, kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pehsechs/odoo16/odoo/api.py", line 484, in call_kw
+    result = _call_kw_multi(method, model, args, kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pehsechs/odoo16/odoo/api.py", line 469, in _call_kw_multi
+    result = method(recs, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<decorator-gen-77>", line 2, in button_immediate_install
+  File "/home/pehsechs/odoo16/odoo/addons/base/models/ir_module.py", line 74, in check_and_log
+    return method(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pehsechs/odoo16/odoo/addons/base/models/ir_module.py", line 478, in button_immediate_install
+    return self._button_immediate_function(self.env.registry[self._name].button_install)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pehsechs/odoo16/odoo/addons/base/models/ir_module.py", line 602, in _button_immediate_function
+    registry = modules.registry.Registry.new(self._cr.dbname, update_module=True)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<decorator-gen-16>", line 2, in new
+  File "/home/pehsechs/odoo16/odoo/tools/func.py", line 87, in locked
+    return func(inst, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pehsechs/odoo16/odoo/modules/registry.py", line 87, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "/home/pehsechs/odoo16/odoo/modules/loading.py", line 493, in load_modules
+    processed_modules += load_marked_modules(cr, graph,
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/pehsechs/odoo16/odoo/modules/loading.py", line 374, in load_marked_modules
+    loaded, processed = load_module_graph(
+                        ^^^^^^^^^^^^^^^^^^
+  File "/home/pehsechs/odoo16/odoo/modules/loading.py", line 190, in load_module_graph
+    load_openerp_module(package.name)
+  File "/home/pehsechs/odoo16/odoo/modules/module.py", line 471, in load_openerp_module
+    __import__('odoo.addons.' + module_name)
+  File "/home/pehsechs/odoo16/parasmodules/laptop_shop/__init__.py", line 1, in <module>
+    from . import models
+  File "/home/pehsechs/odoo16/parasmodules/laptop_shop/models/__init__.py", line 1, in <module>
+    from . import customers
+ImportError: cannot import name 'customers' from partially initialized module 'odoo.addons.laptop_shop.models' (most likely due to a circular import) (/home/pehsechs/odoo16/parasmodules/laptop_shop/models/__init__.py)
+2026-03-16 22:37:40,703 40021 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:37:40] "POST /web/dataset/call_button HTTP/1.1" 200 - 1215 0.342 0.728
+2026-03-16 22:38:35,866 40021 INFO odoo16 odoo.addons.base.models.ir_cron: Starting job `payment: post-process transactions`. 
+2026-03-16 22:38:35,872 40021 INFO odoo16 odoo.addons.base.models.ir_cron: Job `payment: post-process transactions` done. 
+2026-03-16 22:39:15,520 40021 INFO ? odoo.service.server: Initiating shutdown 
+2026-03-16 22:39:15,520 40021 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2026-03-16 22:39:16,614 40021 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 6 connections  
+2026-03-16 22:39:20,632 41242 INFO ? odoo: Odoo version 16.0 
+2026-03-16 22:39:20,633 41242 INFO ? odoo: Using configuration file at /home/pehsechs/odoo16/odoo.conf 
+2026-03-16 22:39:20,633 41242 INFO ? odoo: addons paths: ['/home/pehsechs/odoo16/odoo/addons', '/home/pehsechs/.local/share/Odoo/addons/16.0', '/home/pehsechs/odoo16/addons', '/home/pehsechs/odoo16/parasmodules'] 
+2026-03-16 22:39:20,633 41242 INFO ? odoo: database: pehsechs@default:default 
+2026-03-16 22:39:20,764 41242 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltopdf to print a pdf version of the reports. 
+2026-03-16 22:39:20,965 41242 INFO ? odoo.service.server: HTTP service (werkzeug) running on ParasPC.localdomain:8069 
+2026-03-16 22:39:22,538 41242 INFO ? odoo.modules.loading: loading 1 modules... 
+2026-03-16 22:39:22,549 41242 INFO ? odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2026-03-16 22:39:22,587 41242 INFO ? odoo.modules.loading: loading 57 modules... 
+2026-03-16 22:39:23,030 41242 INFO ? odoo.modules.loading: 57 modules loaded in 0.44s, 0 queries (+0 extra) 
+2026-03-16 22:39:23,263 41242 INFO ? odoo.modules.loading: Modules loaded. 
+2026-03-16 22:39:23,269 41242 INFO ? odoo.modules.registry: Registry loaded in 0.744s 
+2026-03-16 22:39:23,271 41242 INFO odoo16 odoo.addons.base.models.ir_http: Generating routing map for key None 
+2026-03-16 22:39:23,543 41242 INFO odoo16 odoo.addons.base.models.ir_http: Generating routing map for key None 
+2026-03-16 22:39:23,744 41242 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:39:23] "GET /websocket HTTP/1.1" 101 - 22 0.055 1.164
+2026-03-16 22:39:23,841 41242 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2026-03-16 22:39:23,889 41242 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:39:23] "GET / HTTP/1.1" 303 - 2 0.009 0.371
+2026-03-16 22:39:24,280 41242 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:39:24] "GET /web HTTP/1.1" 200 - 83 0.048 0.337
+2026-03-16 22:39:24,938 41242 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:39:24] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 5 0.003 0.006
+2026-03-16 22:39:25,281 41242 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:39:25] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 17 0.016 0.012
+2026-03-16 22:39:25,293 41242 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:39:25] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.006
+2026-03-16 22:39:25,475 41242 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'laptop_shop', defaulting to LGPL-3 
+2026-03-16 22:39:25,486 41242 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:39:25] "POST /web/action/load HTTP/1.1" 200 - 9 0.006 0.229
+2026-03-16 22:39:25,886 41242 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:39:25] "POST /mail/init_messaging HTTP/1.1" 200 - 55 0.039 0.026
+2026-03-16 22:39:26,134 41242 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:39:26] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 22 0.017 0.017
+2026-03-16 22:39:26,143 41242 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:39:26] "POST /mail/inbox/messages HTTP/1.1" 200 - 8 0.005 0.005
+2026-03-16 22:39:26,188 41242 INFO ? werkzeug: 127.0.0.1 - - [16/Mar/2026 22:39:26] "GET /mail/static/src/audio/ting.ogg HTTP/1.1" 206 - 0 0.000 0.002
+2026-03-16 22:39:26,206 41242 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:39:26] "POST /mail/load_message_failures HTTP/1.1" 200 - 11 0.008 0.012
+2026-03-16 22:39:28,373 41242 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:39:28] "POST /web/action/load HTTP/1.1" 200 - 11 0.005 0.008
+2026-03-16 22:39:28,664 41242 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:39:28] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 44 0.023 0.032
+2026-03-16 22:39:28,705 41242 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:39:28] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 42 0.017 0.011
+2026-03-16 22:39:28,968 41242 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:39:28] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.002 0.005
+2026-03-16 22:39:30,730 41242 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:39:30] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.023 0.018
+2026-03-16 22:39:30,918 41242 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:39:30] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.003 0.006
+2026-03-16 22:39:32,643 41242 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:39:32] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.027 0.011
+2026-03-16 22:39:32,951 41242 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:39:32] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.005 0.006
+2026-03-16 22:39:34,248 41242 INFO odoo16 odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_install on ['PKCL Solutions'] to user admin #2 via 127.0.0.1 
+2026-03-16 22:39:34,248 41242 INFO odoo16 odoo.addons.base.models.ir_module: User #2 triggered module installation 
+2026-03-16 22:39:34,249 41242 INFO odoo16 odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['PKCL Solutions'] to user admin #2 via 127.0.0.1 
+2026-03-16 22:39:34,291 41242 INFO odoo16 odoo.modules.loading: loading 1 modules... 
+2026-03-16 22:39:34,299 41242 INFO odoo16 odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2026-03-16 22:39:34,321 41242 INFO odoo16 odoo.modules.loading: updating modules list 
+2026-03-16 22:39:34,322 41242 INFO odoo16 odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2026-03-16 22:39:34,884 41242 INFO odoo16 odoo.modules.loading: loading 57 modules... 
+2026-03-16 22:39:34,919 41242 INFO odoo16 odoo.modules.loading: 57 modules loaded in 0.03s, 0 queries (+0 extra) 
+2026-03-16 22:39:34,921 41242 INFO odoo16 odoo.modules.loading: loading 58 modules... 
+2026-03-16 22:39:34,921 41242 INFO odoo16 odoo.modules.loading: Loading module laptop_shop (2/58) 
+2026-03-16 22:39:35,105 41242 INFO odoo16 odoo.modules.registry: module laptop_shop: creating or updating database tables 
+2026-03-16 22:39:35,241 41242 WARNING odoo16 odoo.modules.loading: The models ['pkcl.customers'] have no access rules in module laptop_shop, consider adding some, like:
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+laptop_shop.access_pkcl_customers,access_pkcl_customers,laptop_shop.model_pkcl_customers,base.group_user,1,0,0,0 
+2026-03-16 22:39:35,246 41242 INFO odoo16 odoo.modules.loading: Module laptop_shop loaded in 0.33s, 37 queries (+37 other) 
+2026-03-16 22:39:35,246 41242 INFO odoo16 odoo.modules.loading: 58 modules loaded in 0.33s, 37 queries (+37 extra) 
+2026-03-16 22:39:35,943 41242 INFO odoo16 odoo.modules.loading: Modules loaded. 
+2026-03-16 22:39:35,960 41242 INFO odoo16 odoo.modules.registry: Registry loaded in 1.675s 
+2026-03-16 22:39:35,960 41242 INFO odoo16 odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2026-03-16 22:39:35,965 41242 INFO odoo16 odoo.modules.registry: Registry changed, signaling through the database 
+2026-03-16 22:39:35,966 41242 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:39:35] "POST /web/dataset/call_button HTTP/1.1" 200 - 1922 0.863 0.859
+2026-03-16 22:39:36,275 41242 INFO odoo16 odoo.addons.base.models.ir_http: Generating routing map for key None 
+2026-03-16 22:39:36,589 41242 WARNING odoo16 odoo.modules.module: Missing `license` key in manifest for 'laptop_shop', defaulting to LGPL-3 
+2026-03-16 22:39:36,866 41242 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:39:36] "GET /web HTTP/1.1" 200 - 87 0.039 0.556
+2026-03-16 22:39:36,954 41242 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:39:36] "GET /web/webclient/translations/30e42cae01ddc1057bfc150b661f11bb9235aa7a?lang=en_US HTTP/1.1" 200 - 3 0.002 0.004
+2026-03-16 22:39:37,424 41242 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:39:37] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 5 0.003 0.007
+2026-03-16 22:39:37,738 41242 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:39:37] "POST /web/action/load HTTP/1.1" 200 - 9 0.004 0.007
+2026-03-16 22:39:37,749 41242 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:39:37] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.006
+2026-03-16 22:39:37,752 41242 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:39:37] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 17 0.012 0.012
+2026-03-16 22:39:38,075 41242 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:39:38] "POST /mail/init_messaging HTTP/1.1" 200 - 55 0.026 0.023
+2026-03-16 22:39:38,335 41242 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:39:38] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 22 0.010 0.011
+2026-03-16 22:39:38,351 41242 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:39:38] "POST /mail/inbox/messages HTTP/1.1" 200 - 8 0.004 0.004
+2026-03-16 22:39:38,404 41242 INFO ? werkzeug: 127.0.0.1 - - [16/Mar/2026 22:39:38] "GET /mail/static/src/audio/ting.ogg HTTP/1.1" 206 - 0 0.000 0.002
+2026-03-16 22:39:38,415 41242 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:39:38] "POST /mail/load_message_failures HTTP/1.1" 200 - 11 0.008 0.007
+2026-03-16 22:39:42,773 41242 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:39:42] "POST /web/action/load HTTP/1.1" 200 - 11 0.004 0.007
+2026-03-16 22:39:43,035 41242 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:39:43] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 44 0.018 0.025
+2026-03-16 22:39:43,092 41242 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:39:43] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 42 0.017 0.011
+2026-03-16 22:39:43,342 41242 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:39:43] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.002 0.005
+2026-03-16 22:39:44,897 41242 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:39:44] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.016 0.012
+2026-03-16 22:39:45,204 41242 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:39:45] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.004 0.008
+2026-03-16 22:39:46,540 41242 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:39:46] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.027 0.012
+2026-03-16 22:39:46,848 41242 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:39:46] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.006 0.008
+2026-03-16 22:39:52,154 41242 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:39:52] "POST /web/dataset/call_kw/ir.module.module/read HTTP/1.1" 200 - 8 0.004 0.010
+2026-03-16 22:39:52,525 41242 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:39:52] "GET /web/bundle/web_editor.assets_wysiwyg?lang=en_US&debug=1 HTTP/1.1" 200 - 11 0.004 0.040
+2026-03-16 22:39:52,733 41242 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:39:52] "GET /web/image?model=ir.module.module&id=540&field=icon_image&unique=1773700775000 HTTP/1.1" 200 - 4 0.002 0.004
+2026-03-16 22:40:01,270 41242 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:40:01] "POST /web/action/load HTTP/1.1" 200 - 14 0.006 0.009
+2026-03-16 22:40:01,644 41242 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:40:01] "POST /web/dataset/call_kw/ir.model/get_views HTTP/1.1" 200 - 42 0.018 0.037
+2026-03-16 22:40:01,837 41242 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:40:01] "POST /web/dataset/call_kw/ir.model/web_search_read HTTP/1.1" 200 - 5 0.003 0.005
+2026-03-16 22:40:01,961 41242 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:40:01] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 2 0.003 0.009
+2026-03-16 22:40:04,615 41242 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:40:04] "POST /web/dataset/call_kw/ir.model/web_search_read HTTP/1.1" 200 - 3 0.002 0.003
+2026-03-16 22:40:06,588 41242 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:40:06] "POST /web/dataset/call_kw/ir.model/read HTTP/1.1" 200 - 14 0.011 0.011
+2026-03-16 22:40:06,701 41242 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:40:06] "POST /web/dataset/call_kw/ir.model/read HTTP/1.1" 200 - 10 0.004 0.006
+2026-03-16 22:40:06,809 41242 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:40:06] "POST /web/dataset/call_kw/ir.model.fields/read HTTP/1.1" 200 - 2 0.001 0.003
+2026-03-16 22:40:21,205 41242 INFO ? odoo.service.server: Initiating shutdown 
+2026-03-16 22:40:21,205 41242 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2026-03-16 22:40:21,558 41242 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 5 connections  
+2026-03-16 22:40:27,031 41597 INFO ? odoo: Odoo version 16.0 
+2026-03-16 22:40:27,032 41597 INFO ? odoo: Using configuration file at /home/pehsechs/odoo16/odoo.conf 
+2026-03-16 22:40:27,032 41597 INFO ? odoo: addons paths: ['/home/pehsechs/odoo16/odoo/addons', '/home/pehsechs/.local/share/Odoo/addons/16.0', '/home/pehsechs/odoo16/addons', '/home/pehsechs/odoo16/parasmodules'] 
+2026-03-16 22:40:27,032 41597 INFO ? odoo: database: pehsechs@default:default 
+2026-03-16 22:40:27,162 41597 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltopdf to print a pdf version of the reports. 
+2026-03-16 22:40:27,330 41597 INFO ? odoo.service.server: HTTP service (werkzeug) running on ParasPC.localdomain:8069 
+2026-03-16 22:40:28,424 41597 INFO ? odoo.modules.loading: loading 1 modules... 
+2026-03-16 22:40:28,433 41597 INFO ? odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2026-03-16 22:40:28,435 41597 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'laptop_shop', defaulting to LGPL-3 
+2026-03-16 22:40:28,458 41597 INFO ? odoo.modules.loading: loading 58 modules... 
+2026-03-16 22:40:28,866 41597 INFO ? odoo.modules.loading: 58 modules loaded in 0.41s, 0 queries (+0 extra) 
+2026-03-16 22:40:29,046 41597 INFO ? odoo.modules.loading: Modules loaded. 
+2026-03-16 22:40:29,050 41597 INFO ? odoo.modules.registry: Registry loaded in 0.635s 
+2026-03-16 22:40:29,052 41597 INFO odoo16 odoo.addons.base.models.ir_http: Generating routing map for key None 
+2026-03-16 22:40:29,401 41597 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:40:29] "GET /websocket HTTP/1.1" 101 - 22 0.017 0.970
+2026-03-16 22:40:29,410 41597 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2026-03-16 22:40:29,611 41597 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:40:29] "GET / HTTP/1.1" 303 - 2 0.001 0.005
+2026-03-16 22:40:29,722 41597 WARNING odoo16 odoo.modules.module: Missing `license` key in manifest for 'laptop_shop', defaulting to LGPL-3 
+2026-03-16 22:40:30,007 41597 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:40:30] "GET /web HTTP/1.1" 200 - 83 0.049 0.341
+2026-03-16 22:40:30,908 41597 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:40:30] "POST /web/action/load HTTP/1.1" 200 - 9 0.004 0.194
+2026-03-16 22:40:31,018 41597 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:40:31] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 17 0.009 0.014
+2026-03-16 22:40:31,852 41597 INFO ? werkzeug: 127.0.0.1 - - [16/Mar/2026 22:40:31] "GET /mail/static/src/audio/ting.ogg HTTP/1.1" 206 - 0 0.000 0.003
+2026-03-16 22:40:31,879 41597 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:40:31] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 23 0.022 0.017
+2026-03-16 22:40:31,890 41597 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:40:31] "POST /mail/init_messaging HTTP/1.1" 200 - 55 0.034 0.020
+2026-03-16 22:40:32,088 41597 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:40:32] "POST /mail/inbox/messages HTTP/1.1" 200 - 8 0.004 0.004
+2026-03-16 22:40:32,202 41597 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:40:32] "POST /mail/load_message_failures HTTP/1.1" 200 - 11 0.005 0.007
+2026-03-16 22:40:32,814 41597 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:40:32] "GET /web HTTP/1.1" 200 - 9 0.005 0.010
+2026-03-16 22:40:33,312 41597 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:40:33] "POST /web/action/load HTTP/1.1" 200 - 14 0.007 0.009
+2026-03-16 22:40:33,626 41597 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:40:33] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 9 0.008 0.008
+2026-03-16 22:40:33,677 41597 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:40:33] "POST /web/dataset/call_kw/ir.model/get_views HTTP/1.1" 200 - 49 0.025 0.042
+2026-03-16 22:40:33,930 41597 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:40:33] "POST /web/dataset/call_kw/ir.model/read HTTP/1.1" 200 - 16 0.010 0.007
+2026-03-16 22:40:34,287 41597 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:40:34] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 11 0.010 0.008
+2026-03-16 22:40:34,295 41597 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:40:34] "POST /web/dataset/call_kw/ir.model.fields/read HTTP/1.1" 200 - 2 0.002 0.013
+2026-03-16 22:40:34,304 41597 INFO ? werkzeug: 127.0.0.1 - - [16/Mar/2026 22:40:34] "GET /mail/static/src/audio/ting.ogg HTTP/1.1" 206 - 0 0.000 0.007
+2026-03-16 22:40:34,316 41597 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:40:34] "POST /mail/init_messaging HTTP/1.1" 200 - 32 0.031 0.017
+2026-03-16 22:40:34,318 41597 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:40:34] "GET /web/image/res.company/1/favicon HTTP/1.1" 200 - 10 0.012 0.014
+2026-03-16 22:40:34,526 41597 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:40:34] "POST /mail/load_message_failures HTTP/1.1" 200 - 10 0.007 0.007
+2026-03-16 22:40:39,467 41597 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:40:39] "POST /web/action/load HTTP/1.1" 200 - 10 0.012 0.008
+2026-03-16 22:40:39,777 41597 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:40:39] "POST /web/dataset/call_kw/ir.model/get_views HTTP/1.1" 200 - 2 0.001 0.008
+2026-03-16 22:40:40,018 41597 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:40:40] "POST /web/dataset/call_kw/ir.model/web_search_read HTTP/1.1" 200 - 4 0.002 0.004
+2026-03-16 22:40:40,087 41597 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:40:40] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 2 0.001 0.003
+2026-03-16 22:40:42,275 41597 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:40:42] "POST /web/dataset/call_kw/ir.model/web_search_read HTTP/1.1" 200 - 3 0.002 0.003
+2026-03-16 22:40:43,934 41597 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:40:43] "POST /web/dataset/call_kw/ir.model/read HTTP/1.1" 200 - 10 0.009 0.013
+2026-03-16 22:40:44,158 41597 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:40:44] "POST /web/dataset/call_kw/ir.model.fields/read HTTP/1.1" 200 - 2 0.003 0.005
+2026-03-16 22:40:44,232 41597 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:40:44] "POST /web/dataset/call_kw/ir.model/read HTTP/1.1" 200 - 10 0.004 0.007
+2026-03-16 22:40:44,310 41597 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:40:44] "POST /web/dataset/call_kw/ir.model.fields/read HTTP/1.1" 200 - 2 0.001 0.003
+2026-03-16 22:40:50,651 41597 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:40:50] "POST /web/action/load HTTP/1.1" 200 - 11 0.004 0.008
+2026-03-16 22:40:50,982 41597 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:40:50] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 37 0.015 0.025
+2026-03-16 22:40:51,213 41597 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:40:51] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 41 0.017 0.012
+2026-03-16 22:40:51,290 41597 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:40:51] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.002 0.005
+2026-03-16 22:40:52,979 41597 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:40:52] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.014 0.010
+2026-03-16 22:40:53,283 41597 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:40:53] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.003 0.006
+2026-03-16 22:40:54,495 41597 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:40:54] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.027 0.011
+2026-03-16 22:40:54,796 41597 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:40:54] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.003 0.004
+2026-03-16 22:40:56,906 41597 INFO odoo16 odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_upgrade on ['PKCL Solutions'] to user admin #2 via 127.0.0.1 
+2026-03-16 22:40:56,907 41597 INFO odoo16 odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['PKCL Solutions'] to user admin #2 via 127.0.0.1 
+2026-03-16 22:40:56,907 41597 INFO odoo16 odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['PKCL Solutions'] to user admin #2 via 127.0.0.1 
+2026-03-16 22:41:00,425 41597 INFO odoo16 odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user admin #2 via 127.0.0.1 
+2026-03-16 22:41:00,450 41597 INFO odoo16 odoo.modules.loading: loading 1 modules... 
+2026-03-16 22:41:00,458 41597 INFO odoo16 odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2026-03-16 22:41:00,479 41597 INFO odoo16 odoo.modules.loading: updating modules list 
+2026-03-16 22:41:00,479 41597 INFO odoo16 odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2026-03-16 22:41:01,040 41597 INFO odoo16 odoo.modules.loading: loading 58 modules... 
+2026-03-16 22:41:01,040 41597 INFO odoo16 odoo.modules.loading: Loading module laptop_shop (2/58) 
+2026-03-16 22:41:01,070 41597 INFO odoo16 odoo.modules.registry: module laptop_shop: creating or updating database tables 
+2026-03-16 22:41:01,129 41597 WARNING odoo16 odoo.modules.loading: The models ['pkcl.customers'] have no access rules in module laptop_shop, consider adding some, like:
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+laptop_shop.access_pkcl_customers,access_pkcl_customers,laptop_shop.model_pkcl_customers,base.group_user,1,0,0,0 
+2026-03-16 22:41:01,132 41597 INFO odoo16 odoo.modules.loading: Module laptop_shop loaded in 0.09s, 29 queries (+29 other) 
+2026-03-16 22:41:01,227 41597 INFO odoo16 odoo.modules.loading: 58 modules loaded in 0.19s, 29 queries (+29 extra) 
+2026-03-16 22:41:01,609 41597 INFO odoo16 odoo.modules.registry: verifying fields for every extended model 
+2026-03-16 22:41:01,925 41597 INFO odoo16 odoo.modules.loading: Modules loaded. 
+2026-03-16 22:41:01,940 41597 INFO odoo16 odoo.modules.registry: Registry loaded in 1.499s 
+2026-03-16 22:41:01,941 41597 INFO odoo16 odoo.addons.base.models.ir_module: getting next ir.actions.todo() 
+2026-03-16 22:41:01,945 41597 INFO odoo16 odoo.modules.registry: Registry changed, signaling through the database 
+2026-03-16 22:41:01,946 41597 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:41:01] "POST /web/dataset/call_button HTTP/1.1" 200 - 3065 4.079 0.966
+2026-03-16 22:41:02,250 41597 INFO odoo16 odoo.addons.base.models.ir_http: Generating routing map for key None 
+2026-03-16 22:41:02,823 41597 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:41:02] "GET /web HTTP/1.1" 200 - 87 0.044 0.532
+2026-03-16 22:41:03,293 41597 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:41:03] "GET /bus/websocket_worker_bundle?v=1.0.5 HTTP/1.1" 304 - 6 0.003 0.006
+2026-03-16 22:41:03,341 41597 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:41:03] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 17 0.009 0.011
+2026-03-16 22:41:03,617 41597 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:41:03] "GET /websocket HTTP/1.1" 101 - 1 0.001 0.003
+2026-03-16 22:41:03,623 41597 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:41:03] "POST /web/action/load HTTP/1.1" 200 - 9 0.005 0.006
+2026-03-16 22:41:04,212 41597 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:41:04] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 22 0.012 0.011
+2026-03-16 22:41:04,218 41597 INFO ? werkzeug: 127.0.0.1 - - [16/Mar/2026 22:41:04] "GET /mail/static/src/audio/ting.ogg HTTP/1.1" 206 - 0 0.000 0.002
+2026-03-16 22:41:04,242 41597 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:41:04] "POST /mail/init_messaging HTTP/1.1" 200 - 55 0.032 0.023
+2026-03-16 22:41:04,426 41597 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:41:04] "POST /mail/inbox/messages HTTP/1.1" 200 - 8 0.005 0.004
+2026-03-16 22:41:04,560 41597 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:41:04] "POST /mail/load_message_failures HTTP/1.1" 200 - 11 0.007 0.007
+2026-03-16 22:41:09,359 41597 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:41:09] "POST /web/action/load HTTP/1.1" 200 - 14 0.006 0.009
+2026-03-16 22:41:09,730 41597 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:41:09] "POST /web/dataset/call_kw/ir.model/get_views HTTP/1.1" 200 - 49 0.020 0.041
+2026-03-16 22:41:09,924 41597 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:41:09] "POST /web/dataset/call_kw/ir.model/web_search_read HTTP/1.1" 200 - 5 0.004 0.006
+2026-03-16 22:41:10,045 41597 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:41:10] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 2 0.005 0.009
+2026-03-16 22:41:12,314 41597 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:41:12] "POST /web/dataset/call_kw/ir.model/web_search_read HTTP/1.1" 200 - 3 0.002 0.003
+2026-03-16 22:41:25,511 41597 INFO ? odoo.service.server: Initiating shutdown 
+2026-03-16 22:41:25,512 41597 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2026-03-16 22:41:25,604 41597 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 6 connections  
+2026-03-16 22:41:42,976 42127 INFO ? odoo: Odoo version 16.0 
+2026-03-16 22:41:42,976 42127 INFO ? odoo: Using configuration file at /home/pehsechs/odoo16/odoo.conf 
+2026-03-16 22:41:42,976 42127 INFO ? odoo: addons paths: ['/home/pehsechs/odoo16/odoo/addons', '/home/pehsechs/.local/share/Odoo/addons/16.0', '/home/pehsechs/odoo16/addons', '/home/pehsechs/odoo16/parasmodules'] 
+2026-03-16 22:41:42,977 42127 INFO ? odoo: database: pehsechs@default:default 
+2026-03-16 22:41:43,106 42127 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltopdf to print a pdf version of the reports. 
+2026-03-16 22:41:43,278 42127 INFO ? odoo.service.server: HTTP service (werkzeug) running on ParasPC.localdomain:8069 
+2026-03-16 22:41:45,710 42127 INFO ? odoo.modules.loading: loading 1 modules... 
+2026-03-16 22:41:45,719 42127 INFO ? odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2026-03-16 22:41:45,720 42127 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'laptop_shop', defaulting to LGPL-3 
+2026-03-16 22:41:45,745 42127 INFO ? odoo.modules.loading: loading 58 modules... 
+2026-03-16 22:41:46,231 42127 INFO ? odoo.modules.loading: 58 modules loaded in 0.49s, 0 queries (+0 extra) 
+2026-03-16 22:41:46,464 42127 INFO ? odoo.modules.loading: Modules loaded. 
+2026-03-16 22:41:46,469 42127 INFO ? odoo.modules.registry: Registry loaded in 0.770s 
+2026-03-16 22:41:46,475 42127 INFO odoo16 odoo.addons.base.models.ir_http: Generating routing map for key None 
+2026-03-16 22:41:46,497 42127 INFO odoo16 odoo.addons.base.models.ir_http: Generating routing map for key None 
+2026-03-16 22:41:47,065 42127 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:41:47] "GET /websocket HTTP/1.1" 101 - 22 0.023 1.345
+2026-03-16 22:41:47,069 42127 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:41:47] "GET / HTTP/1.1" 303 - 7 0.015 0.653
+2026-03-16 22:41:47,077 42127 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2026-03-16 22:41:47,165 42127 WARNING odoo16 odoo.modules.module: Missing `license` key in manifest for 'laptop_shop', defaulting to LGPL-3 
+2026-03-16 22:41:47,441 42127 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:41:47] "GET /web HTTP/1.1" 200 - 83 0.042 0.326
+2026-03-16 22:41:48,427 42127 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:41:48] "POST /web/action/load HTTP/1.1" 200 - 9 0.004 0.268
+2026-03-16 22:41:48,453 42127 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:41:48] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 17 0.008 0.010
+2026-03-16 22:41:49,333 42127 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:41:49] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 23 0.018 0.013
+2026-03-16 22:41:49,339 42127 INFO ? werkzeug: 127.0.0.1 - - [16/Mar/2026 22:41:49] "GET /mail/static/src/audio/ting.ogg HTTP/1.1" 206 - 0 0.000 0.002
+2026-03-16 22:41:49,366 42127 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:41:49] "POST /mail/init_messaging HTTP/1.1" 200 - 55 0.042 0.024
+2026-03-16 22:41:49,569 42127 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:41:49] "POST /mail/inbox/messages HTTP/1.1" 200 - 8 0.012 0.010
+2026-03-16 22:41:49,669 42127 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:41:49] "POST /mail/load_message_failures HTTP/1.1" 200 - 11 0.006 0.006
+2026-03-16 22:41:52,579 42127 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:41:52] "POST /web/action/load HTTP/1.1" 200 - 14 0.007 0.010
+2026-03-16 22:41:52,942 42127 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:41:52] "POST /web/dataset/call_kw/ir.model/get_views HTTP/1.1" 200 - 49 0.020 0.037
+2026-03-16 22:41:53,135 42127 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:41:53] "POST /web/dataset/call_kw/ir.model/web_search_read HTTP/1.1" 200 - 5 0.003 0.004
+2026-03-16 22:41:53,246 42127 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:41:53] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 2 0.001 0.003
+2026-03-16 22:41:55,640 42127 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:41:55] "POST /web/dataset/call_kw/ir.model/web_search_read HTTP/1.1" 200 - 3 0.002 0.004
+2026-03-16 22:41:57,650 42127 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:41:57] "POST /web/dataset/call_kw/ir.model/read HTTP/1.1" 200 - 15 0.014 0.013
+2026-03-16 22:41:57,878 42127 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:41:57] "POST /web/dataset/call_kw/ir.model.fields/read HTTP/1.1" 200 - 2 0.003 0.009
+2026-03-16 22:41:59,204 42127 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:41:59] "POST /web/action/load HTTP/1.1" 200 - 11 0.005 0.007
+2026-03-16 22:41:59,535 42127 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:41:59] "POST /web/dataset/call_kw/ir.module.module/get_views HTTP/1.1" 200 - 37 0.014 0.025
+2026-03-16 22:41:59,772 42127 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:41:59] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 41 0.017 0.012
+2026-03-16 22:41:59,845 42127 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:41:59] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.004 0.010
+2026-03-16 22:42:01,318 42127 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:42:01] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.015 0.012
+2026-03-16 22:42:01,610 42127 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:42:01] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 4 0.002 0.005
+2026-03-16 22:42:02,854 42127 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:42:02] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.028 0.011
+2026-03-16 22:42:03,154 42127 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:42:03] "POST /web/dataset/call_kw/ir.module.module/web_search_read HTTP/1.1" 200 - 3 0.003 0.003
+2026-03-16 22:42:18,829 42127 INFO ? odoo.service.server: Initiating shutdown 
+2026-03-16 22:42:18,829 42127 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2026-03-16 22:42:19,878 42127 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 5 connections  
+2026-03-16 22:42:27,958 42479 INFO ? odoo: Odoo version 16.0 
+2026-03-16 22:42:27,959 42479 INFO ? odoo: Using configuration file at /home/pehsechs/odoo16/odoo.conf 
+2026-03-16 22:42:27,959 42479 INFO ? odoo: addons paths: ['/home/pehsechs/odoo16/odoo/addons', '/home/pehsechs/.local/share/Odoo/addons/16.0', '/home/pehsechs/odoo16/addons', '/home/pehsechs/odoo16/parasmodules'] 
+2026-03-16 22:42:27,959 42479 INFO ? odoo: database: pehsechs@default:default 
+2026-03-16 22:42:28,086 42479 INFO ? odoo.addons.base.models.ir_actions_report: You need Wkhtmltopdf to print a pdf version of the reports. 
+2026-03-16 22:42:28,246 42479 INFO ? odoo.service.server: HTTP service (werkzeug) running on ParasPC.localdomain:8069 
+2026-03-16 22:42:28,478 42479 INFO ? odoo.modules.loading: loading 1 modules... 
+2026-03-16 22:42:28,487 42479 INFO ? odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2026-03-16 22:42:28,488 42479 WARNING ? odoo.modules.module: Missing `license` key in manifest for 'laptop_shop', defaulting to LGPL-3 
+2026-03-16 22:42:28,512 42479 INFO ? odoo.modules.loading: loading 58 modules... 
+2026-03-16 22:42:28,512 42479 INFO ? odoo.modules.loading: Loading module laptop_shop (2/58) 
+2026-03-16 22:42:28,549 42479 INFO ? odoo.modules.registry: module laptop_shop: creating or updating database tables 
+2026-03-16 22:42:28,586 42479 WARNING ? odoo.modules.loading: The models ['pkcl.customers'] have no access rules in module laptop_shop, consider adding some, like:
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+laptop_shop.access_pkcl_customers,access_pkcl_customers,laptop_shop.model_pkcl_customers,base.group_user,1,0,0,0 
+2026-03-16 22:42:28,591 42479 INFO ? odoo.modules.loading: Module laptop_shop loaded in 0.08s, 28 queries (+28 other) 
+2026-03-16 22:42:29,037 42479 INFO ? odoo.modules.loading: 58 modules loaded in 0.52s, 28 queries (+28 extra) 
+2026-03-16 22:42:29,341 42479 INFO ? odoo.modules.registry: verifying fields for every extended model 
+2026-03-16 22:42:29,352 42479 INFO ? odoo.modules.loading: Modules loaded. 
+2026-03-16 22:42:29,358 42479 INFO ? odoo.modules.registry: Registry loaded in 0.890s 
+2026-03-16 22:42:29,359 42479 INFO odoo16 odoo.addons.base.models.ir_http: Generating routing map for key None 
+2026-03-16 22:42:29,639 42479 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:42:29] "GET /websocket HTTP/1.1" 101 - 347 0.197 0.976
+2026-03-16 22:42:29,646 42479 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2026-03-16 22:42:30,814 42479 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:42:30] "GET / HTTP/1.1" 303 - 2 0.001 0.004
+2026-03-16 22:42:30,933 42479 WARNING odoo16 odoo.modules.module: Missing `license` key in manifest for 'laptop_shop', defaulting to LGPL-3 
+2026-03-16 22:42:31,206 42479 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:42:31] "GET /web HTTP/1.1" 200 - 83 0.044 0.343
+2026-03-16 22:42:31,774 42479 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:42:31] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 17 0.009 0.011
+2026-03-16 22:42:32,251 42479 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:42:32] "POST /web/action/load HTTP/1.1" 200 - 9 0.006 0.201
+2026-03-16 22:42:32,584 42479 INFO ? werkzeug: 127.0.0.1 - - [16/Mar/2026 22:42:32] "GET /mail/static/src/audio/ting.ogg HTTP/1.1" 206 - 0 0.000 0.006
+2026-03-16 22:42:32,594 42479 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:42:32] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 22 0.026 0.018
+2026-03-16 22:42:32,615 42479 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:42:32] "POST /mail/init_messaging HTTP/1.1" 200 - 55 0.041 0.026
+2026-03-16 22:42:32,802 42479 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:42:32] "POST /mail/inbox/messages HTTP/1.1" 200 - 8 0.005 0.005
+2026-03-16 22:42:32,918 42479 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:42:32] "POST /mail/load_message_failures HTTP/1.1" 200 - 11 0.005 0.007
+2026-03-16 22:42:35,971 42479 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:42:35] "POST /web/action/load HTTP/1.1" 200 - 14 0.006 0.009
+2026-03-16 22:42:36,333 42479 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:42:36] "POST /web/dataset/call_kw/ir.model/get_views HTTP/1.1" 200 - 49 0.023 0.038
+2026-03-16 22:42:36,524 42479 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:42:36] "POST /web/dataset/call_kw/ir.model/web_search_read HTTP/1.1" 200 - 5 0.003 0.005
+2026-03-16 22:42:36,637 42479 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:42:36] "POST /web/dataset/call_kw/res.users/has_group HTTP/1.1" 200 - 2 0.001 0.003
+2026-03-16 22:42:38,800 42479 INFO odoo16 werkzeug: 127.0.0.1 - - [16/Mar/2026 22:42:38] "POST /web/dataset/call_kw/ir.model/web_search_read HTTP/1.1" 200 - 3 0.002 0.003
